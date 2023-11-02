@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+.yo{
+    padding-left: 10px;
+}
