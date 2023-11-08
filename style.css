@@ -4,67 +4,24 @@ body{
     margin: 0;
 }
 
-.foto{
-    width: 350px;
-    height: 350px;
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
 }
 
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: lightblue;
-    column-gap: 25px;
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
 }
 
-.hijoCont{
-    border-radius: 25px;
-}
-
-.hijoCont:first-child{
-    background-color: salmon;
-}
-
-.hijoCont:last-child{
-    background-color: rgb(204, 166, 162);
-}
-
-.proyectos{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-    gap: 25px;
-    margin: 0 auto;
-    padding-top: 25px;
-}
-
-.proyecto{
-    background-color: rgb(162, 204, 190);
-    border-radius: 35px;
+.master{
+    background-color: #f5f6f7;
+    min-height: 450px;
     text-align: center;
 }
 
-.bento{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    grid-auto-rows: 100%;
-    margin: 0 auto;
-    padding-top: 25px;
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }  
 }
-
-.bento div{
-    background-color: rgb(7, 114, 114);
-    border-radius: 25px;
-    text-align: center;
-    color: rgb(148, 139, 139);
-    font-weight: bold;
-}
-
-.bento div:first-child{
-    background-color: antiquewhite;
-}
-
-.bento div:nth-child(2){
-    grid-row-start: span 2;
-    background-color: rgb(134, 100, 54);
-}
-
