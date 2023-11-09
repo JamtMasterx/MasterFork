@@ -42,8 +42,24 @@ section {
     padding: 20px;
 }
 
+.experiencia i{
+    font-size: 2.5rem;
+    color: #ffffff;
+    border-radius: 50%;
+    padding:15px 10px;
+    margin: 5px;
+    background-color:#afaeae;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: 560;
+    padding: 10px 0px;
+    font-family: 'Lilita One', sans-serif;
+}
+
 .experiencia .row div{
-height: 250px;
+height: auto;
 background-color: #000080;
 }
 
@@ -93,6 +109,10 @@ background-color: #000080;
     max-width: 600px;
     text-align: center;
 }
+.prueba{
+    color: rgb(255, 255, 255);
+}
+
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -106,3 +126,4 @@ background-color: #000080;
     }
 
 }
+    
