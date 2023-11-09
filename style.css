@@ -1,27 +1,108 @@
-body{
+body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.navbar{
-    padding: 2rem;
-    background-color: #f5f6f7;
+h1 {
+    font-size: 2.5rem;
+
 }
 
-.navbar-collapse{
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara{
+    color:#1b1b32;
+    background-color: #f9f9f9;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0px;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.experiencia{
+    padding: 20px;
+}
+
+.experiencia .row div{
+height: 250px;
+background-color: #000080;
+}
+
+.navbar {
+    padding: 2rem;
+    
+}
+
+.navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
 
-.master{
+.master {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
 }
 
-@media screen and (max-width: 767px){
-    .navbar-brand{
+.master h2 {
+    font-size: 1.8rem;
+    color: #8f8f8f;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.master h1 {
+    font-family: 'Lilita One', sans-serif;
+    margin-bottom: 10px;
+}
+
+.master-principal {
+    padding: 3rem;
+
+}
+
+.master-image {
+    margin: 20px;
+    border: 2px solid #dad5d5;
+}
+
+.aboutme {
+    height: 500px;
+    padding: 10px;
+}
+
+.aboutme .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
         display: none;
-    }  
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .master-inferior img {
+        max-width: 600px;
+    }
+
 }
