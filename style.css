@@ -19,6 +19,11 @@ section {
 .seccion-oscura {
     color: white;
     background-color: #1b1b32;
+    padding: 35px;
+}
+
+.seccion-oscura li{
+    font-weight: bold;
 }
 
 .seccion-clara{
@@ -43,12 +48,11 @@ section {
 }
 
 .experiencia i{
-    font-size: 2.5rem;
-    color: #ffffff;
+    font-size: 2rem;
+    color: #e0e0e0;
     border-radius: 50%;
-    padding:15px 10px;
-    margin: 5px;
-    background-color:#afaeae;
+    padding:10px 15px;
+    background-color:#1b1b32;
 }
 
 .experiencia-titulo{
@@ -60,7 +64,7 @@ section {
 
 .experiencia .row div{
 height: auto;
-background-color: #000080;
+margin-top: 10px;
 }
 
 .navbar {
@@ -101,6 +105,10 @@ background-color: #000080;
 }
 
 .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
     height: 500px;
     padding: 10px;
 }
@@ -109,8 +117,14 @@ background-color: #000080;
     max-width: 600px;
     text-align: center;
 }
-.prueba{
-    color: rgb(255, 255, 255);
+
+.badges-contenedor{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.badge{
+    margin: 5px;
 }
 
 
