@@ -58,8 +58,28 @@ section {
 .experiencia-titulo{
     font-size: 25px;
     font-weight: 560;
-    padding: 10px 0px;
+    padding: 5px 0px;
     font-family: 'Lilita One', sans-serif;
+}
+
+.experiencia .columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #8080804d;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia .columna:hover i {
+    color: #1b1b32;
+    background-color: #e0e0e0;
 }
 
 .experiencia .row div{
@@ -120,7 +140,7 @@ margin-top: 10px;
 
 .badges-contenedor{
     font-size: 20px;
-    padding: 5px 0px;
+    padding: 3px 0px;
 }
 
 .badge{
