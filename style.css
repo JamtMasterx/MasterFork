@@ -1,224 +1,218 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 h1 {
-    font-size: 2.5rem;
-
+  font-size: 2.5rem;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .seccion-oscura {
-    color: white;
-    background-color: #1b1b32;
-    padding: 35px;
+  color: white;
+  background-color: #1b1b32;
+  padding: 35px;
 }
 
-.seccion-oscura li{
-    font-weight: bold;
+.seccion-oscura li {
+  font-weight: bold;
 }
 
-.seccion-clara{
-    color:#1b1b32;
-    background-color: #f9f9f9;
+.seccion-clara {
+  color: #1b1b32;
+  background-color: #f9f9f9;
 }
 
 .seccion-titulo {
-    font-size: 2rem;
-    padding: 15px 0px;
-    font-family: 'Lilita One', sans-serif;
+  font-size: 2rem;
+  padding: 15px 0px;
+  font-family: "Lilita One", sans-serif;
 }
 
 .seccion-texto {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
 }
 
-.experiencia{
-    padding: 20px;
+.experiencia {
+  padding: 20px;
 }
 
-.experiencia i{
-    font-size: 2rem;
-    color: #e0e0e0;
-    border-radius: 50%;
-padding: 5px 15px;
-    background-color:#1b1b32;
+.experiencia i {
+  font-size: 2rem;
+  color: #e0e0e0;
+  border-radius: 50%;
+  padding: 5px 15px;
+  background-color: #1b1b32;
 }
 
-.experiencia-titulo{
-    font-size: 25px;
-    font-weight: 560;
-    padding: 5px 0px;
-    font-family: 'Lilita One', sans-serif;
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: 560;
+  padding: 5px 0px;
+  font-family: "Lilita One", sans-serif;
 }
 
-.experiencia .columna{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
-    border: 2px solid #8080804d;
-    transition: all 0.2s ease-in;
+.experiencia .columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #8080804d;
+  transition: all 0.2s ease-in;
 }
 
-.experiencia .columna:hover{
-    color: white;
-    background-color: #1b1b32;
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
 }
 
 .experiencia .columna:hover i {
-    color: #1b1b32;
-    background-color: #e0e0e0;
+  color: #1b1b32;
+  background-color: #e0e0e0;
 }
 
-.experiencia .row div{
-height: auto;
-margin-top: 10px;
+.experiencia .row div {
+  height: auto;
+  margin-top: 10px;
 }
 
 .navbar {
-    padding: 2rem;
-    
+  padding: 2rem;
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .master {
-    background-color: #f5f6f7;
-    min-height: 450px;
-    text-align: center;
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
 }
 
 .master h2 {
-    font-size: 1.8rem;
-    color: #8f8f8f;
-    font-family: 'Lilita One', sans-serif;
+  font-size: 1.8rem;
+  color: #8f8f8f;
+  font-family: "Lilita One", sans-serif;
 }
 
 .master h1 {
-    font-family: 'Lilita One', sans-serif;
-    margin-bottom: 10px;
+  font-family: "Lilita One", sans-serif;
+  margin-bottom: 10px;
 }
 
 .master-principal {
-    padding: 3rem;
-
+  padding: 3rem;
 }
 
 .master-image {
-    margin: 20px;
-    border: 2px solid #dad5d5;
+  margin: 20px;
+  border: 2px solid #dad5d5;
 }
 
 .aboutme {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    height: 500px;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  height: 500px;
+  padding: 10px;
 }
 
 .aboutme .contenedor {
-    max-width: 600px;
-    text-align: center;
+  max-width: 600px;
+  text-align: center;
 }
 
-.badges-contenedor{
-    font-size: 20px;
-    padding: 3px 0px;
+.badges-contenedor {
+  font-size: 20px;
+  padding: 3px 0px;
 }
 
-.badge{
-    margin: 5px;
+.badge {
+  margin: 5px;
 }
 
-.proyectos{
-    padding: 40px;
+.proyectos {
+  padding: 40px;
 }
 
-.proyectos img{
-    width: 100%;
-    height: 100%;
-    max-height: 300px;
-    display: block;
-    border-radius: 35px;
-    padding: 10px;
-    transition: all 0.2s ease;
+.proyectos img {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  display: block;
+  border-radius: 35px;
+  padding: 10px;
+  transition: all 0.2s ease;
 }
 
-.proyecto-contenedor{
-padding: 20PX;
+.proyecto-contenedor {
+  padding: 20px;
 }
 
-.overlay{
-    position: absolute;
-    transition: all 0.2s ease;
-    opacity: 0;
-    /* position: absolute; */
-    /* top: 50%;
+.overlay {
+  position: absolute;
+  transition: all 0.2s ease;
+  opacity: 0;
+  /* position: absolute; */
+  /* top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); */
-    text-align: center;
+  text-align: center;
 }
 
-.overlay p{
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.iconos-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.iconos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.iconos-container i{
-color: black;
-font-size: 50px;
+.iconos-container i {
+  color: black;
+  font-size: 50px;
 }
 
-.proyecto{
-    position: relative;
-    display: grid;
-    place-items: center;
+.proyecto {
+  position: relative;
+  display: grid;
+  place-items: center;
 }
 
-.proyecto:hover img{
-    opacity: 0.3;
+.proyecto:hover img {
+  opacity: 0.3;
 }
 
-.proyecto:hover .overlay{
-    opacity: 1;
+.proyecto:hover .overlay {
+  opacity: 1;
 }
-
 
 @media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
-    }
+  .navbar-brand {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 700px) {
-    .master-inferior img {
-        max-width: 600px;
-    }
-
+  .master-inferior img {
+    max-width: 600px;
+  }
 }
-    
