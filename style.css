@@ -205,6 +205,64 @@ section {
   opacity: 1;
 }
 
+.testimonios{
+  padding: 40px;
+}
+
+.testimonios .carousel{
+  max-width: 800px;
+}
+
+.carousel-item{
+  height: 500px;
+}
+.carousel-item .container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encajador-imagen{
+  width: 250px;
+  height: 250px;
+  padding-top: 35px;
+}
+
+.testimonio-imagen{
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+
+.testimonio-parrafo{
+  max-width: 80%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Share Tech Mono", sans-serif;
+}
+
+.testimonio-info{
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p { 
+margin-bottom: 0;
+}
+
+.testimonio-cliente{
+  font-size: 1.2rem;
+}
+
+.testimonio-cargo{
+  font-size: 0.9rem;
+  color: #5f5d5d;
+}
+
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
